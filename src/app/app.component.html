@@ -1,3 +1,28 @@
+<mdc-toolbar class="demo__toolbar--primary" [fixed]="true" [fixedAdjustElement]="demobody">
+  <mdc-toolbar-row>
+    <mdc-toolbar-section [alignStart]="true">
+      <button material-icon mdc-toolbar-menu-icon (click)="appdrawer.open()" fxShow fxHide.gt-sm="true">menu</button>
+      <a mdc-toolbar-menu-icon fxHide fxShow.gt-sm="true">
+        <img src="https://trimox.github.io/angular-mdc-web/assets/hub-192x192.png" width="28" height="28" />
+      </a>
+      <mdc-toolbar-title>Angular MDC</mdc-toolbar-title>
+    </mdc-toolbar-section>
+    <mdc-toolbar-section [alignEnd]="true" [shrinkToFit]="true">
+      <a mdc-toolbar-icon href="https://github.com/trimox/angular-mdc-web" alt="GitHub">
+        <mdc-icon>
+          <img src="https://trimox.github.io/angular-mdc-web/assets/github-circle-white-transparent.svg" height="24" />
+        </mdc-icon>
+      </a>
+    </mdc-toolbar-section>
+  </mdc-toolbar-row>
+</mdc-toolbar>
+
+
+
+
+
+
+
 <button mdc-button [primary]="true" [raised]="true">My Button</button>
 
 <button mdc-fab>

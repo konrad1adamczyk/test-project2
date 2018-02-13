@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import {MdcButtonModule, MdcFabModule} from '@angular-mdc/web';
+import {MdcButtonModule, MdcFabModule, MdcToolbarModule} from '@angular-mdc/web';
 
 
 @NgModule({
@@ -14,6 +14,7 @@ import {MdcButtonModule, MdcFabModule} from '@angular-mdc/web';
     BrowserModule,
     MdcButtonModule,
     MdcFabModule,
+    MdcToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
